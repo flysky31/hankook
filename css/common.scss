@@ -407,7 +407,7 @@ body{
                     .email_con{
                         border-right: 1px solid rgba(255,255,255,.5);
                         span{
-                            background: url("/img/email_con_w.png")no-repeat left 2px / 17px auto;
+                            background: url("../img/email_con_w.png")no-repeat left 2px / 17px auto;
                             padding: 0 0 0 23px;
                             font-size: 1rem;
                             
@@ -415,7 +415,7 @@ body{
                     }
                     .support_con{
                         span{
-                            background: url("/img/support_con_w.png")no-repeat left 0 / 18px auto;
+                            background: url("../img/support_con_w.png")no-repeat left 0 / 18px auto;
                             padding: 0 0 0 23px;
                             font-size: 1rem;
                             
@@ -1018,14 +1018,14 @@ body{
                         .email_con {
                             span{
                                 font-size: 0.75rem;
-                                background: url(/img/email_con_w.png) no-repeat left 1px/13px auto;
+                                background: url(../img/email_con_w.png) no-repeat left 1px/13px auto;
                                 padding: 0 0 0 18px;
                             }
                         }
                         .support_con{
                             span{
                                 font-size: 0.75rem;
-                                background: url(/img/support_con_w.png) no-repeat left 0/13px auto;
+                                background: url(../img/support_con_w.png) no-repeat left 0/13px auto;
                                 padding: 0px 0 0 16px;
                             }
                         }
