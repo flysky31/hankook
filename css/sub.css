@@ -149,7 +149,7 @@
   font-size: 1.2rem;
   font-weight: 700;
   padding: 0 0 0 25px;
-  background: url("/img/location_con.png") no-repeat left 3px/15px 22px;
+  background: url("../img/location_con.png") no-repeat left 3px/15px 22px;
 }
 #store_area .tab_top .tab-content .store_txt .address .txt p.tel {
   display: flex;
@@ -157,7 +157,7 @@
   align-items: start;
   flex-wrap: wrap;
   padding: 0 0 0 25px;
-  background: url("/img/tel_con.png") no-repeat left 3px/18px auto;
+  background: url("../img/tel_con.png") no-repeat left 3px/18px auto;
   margin: 0 0 5px 0;
 }
 #store_area .tab_top .tab-content .store_txt .address .txt strong {
@@ -637,7 +637,7 @@
 #promotion_area .store ul li .detail_txt p {
   font-size: 1rem;
   padding: 0 0 0 25px;
-  background: url("/img/location_con.png") no-repeat left 3px/15px 22px;
+  background: url("../img/location_con.png") no-repeat left 3px/15px 22px;
 }
 #promotion_area .store ul li .detail_txt p.tel {
   display: flex;
@@ -645,7 +645,7 @@
   align-items: start;
   flex-wrap: wrap;
   padding: 0 0 0 25px;
-  background: url("/img/tel_con.png") no-repeat left 3px/18px auto;
+  background: url("../img/tel_con.png") no-repeat left 3px/18px auto;
   margin: 0 0 5px 0;
 }
 #promotion_area .store ul li .detail_txt #btn {
