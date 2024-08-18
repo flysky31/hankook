@@ -72,7 +72,7 @@
   color: #fff;
   padding: 0 0 0 45px;
   font-weight: 400;
-  background: url("/img/search_box_con.png") no-repeat left center/30px auto;
+  background: url("../img/search_box_con.png") no-repeat left center/30px auto;
 }
 #search_area article .title {
   width: 50%;
@@ -122,7 +122,7 @@
 }
 
 #banner_area {
-  background: url("/img/banner_bg.jpg") no-repeat center/cover;
+  background: url("../img/banner_bg.jpg") no-repeat center/cover;
   width: 100%;
   overflow: hidden;
 }
@@ -553,7 +553,7 @@
 #dDaySale_area ul li .detail_txt p {
   font-size: 1rem;
   padding: 0 0 0 25px;
-  background: url("/img/location_con.png") no-repeat left 3px/15px 22px;
+  background: url("../img/location_con.png") no-repeat left 3px/15px 22px;
 }
 #dDaySale_area ul li .detail_txt p.tel {
   display: flex;
@@ -561,7 +561,7 @@
   align-items: start;
   flex-wrap: wrap;
   padding: 0 0 0 25px;
-  background: url("/img/tel_con.png") no-repeat left 3px/18px auto;
+  background: url("../img/tel_con.png") no-repeat left 3px/18px auto;
   margin: 0 0 5px 0;
 }
 #dDaySale_area ul li .detail_txt #btn {
@@ -718,7 +718,7 @@
     font-size: 1rem;
   }
   #banner_area {
-    background: url("/img/banner_bg_m01.png") no-repeat -43px center, url("/img/banner_bg_m02.png") no-repeat 100% -153px #F7F7F7;
+    background: url("../img/banner_bg_m01.png") no-repeat -43px center, url("../img/banner_bg_m02.png") no-repeat 100% -153px #F7F7F7;
   }
   #banner_area .txt {
     padding: 40px 0;
@@ -769,7 +769,7 @@
     display: block;
   }
   #banner_area {
-    background: url("/img/banner_bg_m01.png") no-repeat -100px center, url("/img/banner_bg_m02.png") no-repeat 100% -153px #F7F7F7;
+    background: url("../img/banner_bg_m01.png") no-repeat -100px center, url("../img/banner_bg_m02.png") no-repeat 100% -153px #F7F7F7;
   }
   #banner_area article {
     max-width: 80%;
@@ -993,7 +993,7 @@
     font-size: 1.5rem;
   }
   #banner_area {
-    background: url("/img/banner_bg_m01.png") no-repeat -100px bottom/70%, url("/img/banner_bg_m02.png") no-repeat 100% -153px/50% #F7F7F7;
+    background: url("../img/banner_bg_m01.png") no-repeat -100px bottom/70%, url("../img/banner_bg_m02.png") no-repeat 100% -153px/50% #F7F7F7;
   }
   #banner_area article {
     max-width: 90%;
