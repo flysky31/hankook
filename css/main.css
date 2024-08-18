@@ -1,0 +1,1240 @@
+.main_title {
+  font-size: 2.8125rem;
+  font-weight: 800;
+  position: relative;
+  text-align: center;
+}
+
+.sub_title {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+#contents {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 305px;
+}
+
+#main_visual {
+  position: relative;
+}
+#main_visual .mainTxt {
+  overflow: hidden;
+}
+#main_visual .pc_img {
+  display: block;
+}
+#main_visual .mo_img {
+  display: none;
+}
+#main_visual .autoplay_btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  transform: translateX(-50%);
+}
+#main_visual .autoplay_btn .swiper-pagination {
+  bottom: auto !important;
+  position: relative;
+  width: auto !important;
+}
+#main_visual .autoplay_btn .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  transition: width 1s ease;
+}
+#main_visual .autoplay_btn .swiper-pagination .swiper-pagination-bullet-active {
+  width: 20px;
+  border-radius: 20px;
+}
+
+#search_area {
+  background: #E17639;
+}
+#search_area article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+#search_area article h3 {
+  font-size: 1.5625rem;
+  color: #fff;
+  padding: 0 0 0 45px;
+  font-weight: 400;
+  background: url("/img/search_box_con.png") no-repeat left center/30px auto;
+}
+#search_area article .title {
+  width: 50%;
+}
+#search_area article form {
+  width: 55%;
+  display: flex;
+  align-items: center;
+}
+#search_area article form ul {
+  display: flex;
+  align-items: center;
+}
+#search_area article form ul li {
+  margin: 0 10px 0 0;
+}
+#search_area article form ul li:last-child {
+  margin: 0 17px 0 0;
+}
+#search_area article form input {
+  font-size: 1.125rem;
+  width: 100%;
+  border: 0;
+  height: 53px;
+  padding: 0 25px;
+  border-radius: 10px;
+  color: #000;
+  outline: 0;
+}
+#search_area article form input::-moz-placeholder {
+  font-size: 1.125rem;
+  color: #918989;
+}
+#search_area article form input::placeholder {
+  font-size: 1.125rem;
+  color: #918989;
+}
+#search_area article form button {
+  background: #2A3138;
+  font-size: 1.125rem;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 0 25px;
+  border-radius: 7px;
+  height: 53px;
+}
+
+#banner_area {
+  background: url("/img/banner_bg.jpg") no-repeat center/cover;
+  width: 100%;
+  overflow: hidden;
+}
+#banner_area article {
+  max-width: 53%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+#banner_area .txt {
+  width: 67%;
+  padding: 30px 0;
+}
+#banner_area .txt h3 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+#banner_area .txt h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #555555;
+  margin: 5px 0 25px;
+}
+#banner_area .txt #btn {
+  font-size: 1.5625rem;
+  color: #fff;
+  background: linear-gradient(to right, #E17639, #FF5D00);
+  display: inline-block;
+  font-weight: 800;
+  padding: 20px 50px;
+  border-radius: 50px;
+}
+#banner_area .txt #btn i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transform: rotate(135deg);
+  margin: 0 0 0 30px;
+}
+#banner_area .txt #btn i:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 25px;
+  background-color: #fff;
+  transform: rotate(-45deg) translate(8px, 4px);
+  left: 0;
+}
+#banner_area .img_box {
+  width: 30%;
+  position: relative;
+  top: 60px;
+}
+#banner_area .img_box .top_txt {
+  position: absolute;
+  top: -14%;
+  left: 49%;
+  width: 70%;
+  transform: translateX(-50%);
+}
+
+#brand_area {
+  background: #F2F2F2;
+  padding: 50px 0;
+}
+#brand_area article {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+#brand_area article .thumb {
+  display: flex;
+  margin: 30px 0 0;
+  flex-wrap: wrap;
+}
+#brand_area article .thumb li {
+  width: 22%;
+  margin: 0 4% 2% 0;
+}
+#brand_area article .thumb li:nth-of-type(4n) {
+  margin: 0 0 2% 0;
+}
+
+#special_area {
+  background: #fff;
+  padding: 100px 0;
+}
+#special_area article {
+  width: 90%;
+  max-width: 1800px;
+  margin: auto;
+}
+#special_area article .mainTxt {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background: #CFCFCF;
+}
+#special_area article .txt {
+  display: flex;
+  padding: 3%;
+}
+#special_area article .txt .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px 3% 50px 0;
+  width: 25%;
+}
+#special_area article .txt .left h4 {
+  margin: 50px 0 0;
+}
+#special_area article .txt .left h4 strong {
+  font-size: 2.5rem;
+  color: #E17639;
+  display: block;
+}
+#special_area article .txt .left h4 span {
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 400;
+  display: block;
+  margin: 15px 0 0;
+}
+#special_area article .txt .left #btn {
+  font-size: 1.5625rem;
+  color: #fff;
+  background: linear-gradient(to right, #E17639, #FF5D00);
+  font-weight: 800;
+  padding: 20px 0px;
+  border-radius: 50px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#special_area article .txt .left #btn i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transform: rotate(135deg);
+  margin: 0 0 0 30px;
+}
+#special_area article .txt .left #btn i:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 25px;
+  background-color: #fff;
+  transform: rotate(-45deg) translate(8px, 4px);
+}
+#special_area article .txt .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 0 0 3%;
+  width: 25%;
+}
+#special_area article .txt .right h3 strong {
+  display: inline-block;
+  color: #FF0000;
+  font-size: 1.875rem;
+  position: relative;
+}
+#special_area article .txt .right h3 strong:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  background: #FF0000;
+}
+#special_area article .txt .right h3 span {
+  font-size: 1.25rem;
+  font-weight: 400;
+  display: block;
+  margin: 15px 0 0;
+}
+#special_area article .txt .right h4 strong {
+  background: linear-gradient(to right, #FF0000 0, #8A0000 100%);
+  font-size: 2.1875rem;
+  color: #fff;
+  padding: 7px 30px;
+}
+#special_area article .txt .right h4 span {
+  color: #fff;
+  margin: 20px 0 0;
+  font-weight: 600;
+  font-size: 2.1875rem;
+  display: block;
+  text-decoration: line-through;
+}
+#special_area article .txt .right h4 big {
+  font-size: 3.75rem;
+  color: #FF0000;
+}
+#special_area article .txt figure {
+  width: 45%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#special_area article .txt figure big {
+  font-size: 2em;
+  display: block;
+  letter-spacing: -1px;
+}
+#special_area article .txt figure small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 12%;
+  right: 23%;
+  background: #D5A150;
+  border-radius: 100%;
+  line-height: 1;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 28px;
+}
+#special_area article .product-button-next {
+  right: 0% !important;
+  width: 60px;
+  height: 60px;
+  box-shadow: -3px 9px 9px #ddd;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+#special_area article .product-button-prev {
+  left: 0% !important;
+  width: 60px;
+  height: 60px;
+  box-shadow: 5px 9px 9px #ddd;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+#special_area article .product-button-next:after,
+#special_area article .product-button-prev:after {
+  color: #707070;
+  font-weight: 800;
+  font-size: 25px !important;
+  background: #fff;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+#dDaySale_area {
+  background: #fff;
+  padding: 0 0 50px 0;
+}
+#dDaySale_area article {
+  width: 90%;
+  max-width: 1800px;
+  margin: auto;
+}
+#dDaySale_area .title {
+  text-align: center;
+}
+#dDaySale_area .title h3 {
+  position: relative;
+  display: inline-block;
+  padding: 0 0 5px 0;
+  margin: 0 0 50px 0;
+}
+#dDaySale_area .title h3:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: #E17639;
+}
+#dDaySale_area .more_btn {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #676767;
+  margin: 0 0 20px 0;
+}
+#dDaySale_area .more_btn:hover i {
+  transform: rotate(180deg);
+}
+#dDaySale_area .more_btn i {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  transition: transform 800ms ease-in-out;
+}
+#dDaySale_area .more_btn i::before {
+  content: "";
+  display: block;
+  height: 10px;
+  width: 1px;
+  background: #676767;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#dDaySale_area .more_btn i:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 1px;
+  background: #676767;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#dDaySale_area ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#dDaySale_area ul li {
+  width: 19.2%;
+  margin: 0 1% 50px 0;
+}
+#dDaySale_area ul li:nth-of-type(5n) {
+  margin: 0 0 50px 0;
+}
+#dDaySale_area ul li > a:hover figure:after {
+  opacity: 1;
+  visibility: visible;
+}
+#dDaySale_area ul li > a:hover .hover_box {
+  visibility: visible;
+  opacity: 1;
+}
+#dDaySale_area ul li figure {
+  position: relative;
+}
+#dDaySale_area ul li figure:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 800ms ease-in-out;
+}
+#dDaySale_area ul li figure small {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.5625rem;
+  background: #000;
+  display: inline-block;
+  color: #fff;
+  padding: 0 30px;
+  z-index: 1;
+}
+#dDaySale_area ul li figure .hover_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 20;
+  font-size: 1.5625rem;
+  color: #fff;
+  background: linear-gradient(to right, #E17639, #FF5D00);
+  font-weight: 400;
+  padding: 10px 0px;
+  border-radius: 50px;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 800ms ease-in-out;
+}
+#dDaySale_area ul li figure .hover_box i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transform: rotate(135deg);
+  margin: 0 0 0 30px;
+}
+#dDaySale_area ul li figure .hover_box i:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 25px;
+  background-color: #fff;
+  transform: rotate(-45deg) translate(8px, 4px);
+}
+#dDaySale_area ul li .detail_txt {
+  margin: 25px 0 0;
+  padding: 0 10px 0;
+}
+#dDaySale_area ul li .detail_txt h4 {
+  display: none;
+  font-size: 1.125rem;
+}
+#dDaySale_area ul li .detail_txt p {
+  font-size: 1rem;
+  padding: 0 0 0 25px;
+  background: url("/img/location_con.png") no-repeat left 3px/15px 22px;
+}
+#dDaySale_area ul li .detail_txt p.tel {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 0 0 0 25px;
+  background: url("/img/tel_con.png") no-repeat left 3px/18px auto;
+  margin: 0 0 5px 0;
+}
+#dDaySale_area ul li .detail_txt #btn {
+  font-size: 1.5625rem;
+  color: #fff;
+  background: linear-gradient(to right, #E17639, #FF5D00);
+  font-weight: 800;
+  padding: 20px 0px;
+  border-radius: 50px;
+  width: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+#dDaySale_area ul li .detail_txt #btn i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transform: rotate(135deg);
+  margin: 0 0 0 30px;
+}
+#dDaySale_area ul li .detail_txt #btn i:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 25px;
+  background-color: #fff;
+  transform: rotate(-45deg) translate(8px, 4px);
+}
+
+@media (max-width: 1920px) {
+  #special_area article,
+  #dDaySale_area article {
+    max-width: 100%;
+  }
+  #banner_area .img_box {
+    width: 35%;
+  }
+  #banner_area .img_box .top_txt {
+    position: absolute;
+    top: -13%;
+    left: 52%;
+    width: 75%;
+  }
+}
+@media (max-width: 1600px) {
+  #banner_area article {
+    max-width: 60%;
+  }
+}
+@media (max-width: 1440px) {
+  #special_area article .mainTxt {
+    width: 85%;
+  }
+  #special_area article .txt .left h4 {
+    margin: 50px 0;
+  }
+  #special_area article .txt .left #btn {
+    font-size: 1.3rem;
+    padding: 15px 0;
+  }
+  #special_area article .txt .right h4 strong {
+    font-size: 1.5rem;
+  }
+  #special_area article .txt .right h4 big {
+    font-size: 2.75rem;
+  }
+  #special_area article .txt figure small {
+    padding: 20px;
+  }
+}
+@media (max-width: 1360px) {
+  #banner_area article {
+    max-width: 70%;
+  }
+  #special_area article .txt figure small {
+    font-size: 0.9rem;
+  }
+  #special_area article .txt .left {
+    margin: 50px 5% 50px 0;
+  }
+  #special_area article .txt .left h3 {
+    width: 75%;
+  }
+  #special_area article .txt .left h4 strong {
+    font-size: 1.8rem;
+  }
+  #special_area article .txt .left h4 span {
+    font-size: 1rem;
+  }
+  #special_area article .txt .left #btn {
+    font-size: 1rem;
+  }
+  #special_area article .txt .right {
+    margin: 0 0 0 5%;
+  }
+  #special_area article .txt .right h3 strong {
+    font-size: 1.5rem;
+  }
+  #special_area article .txt .right h3 span {
+    font-size: 1rem;
+  }
+  #special_area article .txt .right h4 strong {
+    font-size: 1.3rem;
+  }
+  #special_area article .txt .right h4 span {
+    font-size: 1.8rem;
+  }
+  #special_area article .txt .right h4 big {
+    font-size: 2rem;
+  }
+  #dDaySale_area ul li figure .hover_box {
+    font-size: 1.1rem;
+    padding: 8px 0px;
+  }
+  #dDaySale_area ul li figure small {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 1280px) {
+  .main_title {
+    font-size: 1.8rem;
+  }
+  .sub_title {
+    font-size: 1rem;
+  }
+  #search_area article h3 {
+    font-size: 1.1rem;
+    padding: 0 0 0 30px;
+    background-size: 20px auto;
+  }
+  #search_area article .title {
+    width: 45%;
+  }
+  #search_area article form {
+    width: 65%;
+  }
+  #search_area article form input {
+    font-size: 1rem;
+    height: 45px;
+    padding: 0 16px;
+  }
+  #search_area article form input::-moz-placeholder {
+    font-size: 1rem;
+  }
+  #search_area article form input::placeholder {
+    font-size: 1rem;
+  }
+  #search_area article form button {
+    height: 44px;
+    font-size: 1rem;
+  }
+  #banner_area {
+    background: url("/img/banner_bg_m01.png") no-repeat -43px center, url("/img/banner_bg_m02.png") no-repeat 100% -153px #F7F7F7;
+  }
+  #banner_area .txt {
+    padding: 40px 0;
+  }
+  #banner_area .txt #btn {
+    font-size: 1.1rem;
+    padding: 15px 30px;
+  }
+  #banner_area .img_box {
+    top: 35px;
+  }
+  #banner_area .img_box figure {
+    width: 90%;
+  }
+  #banner_area .img_box .top_txt {
+    position: absolute;
+    left: 46%;
+    width: 63%;
+  }
+  #dDaySale_area {
+    padding: 0;
+  }
+  #dDaySale_area .more_btn {
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+  }
+  #dDaySale_area ul li {
+    width: 24.23%;
+  }
+  #dDaySale_area ul li:nth-of-type(5n) {
+    margin: 0 1% 50px 0;
+  }
+  #dDaySale_area ul li:nth-of-type(4n) {
+    margin: 0 0 50px 0;
+  }
+  #dDaySale_area ul li .detail_txt {
+    margin: 20px 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  #contents {
+    padding-bottom: 400px;
+  }
+  #main_visual .pc_img {
+    display: none;
+  }
+  #main_visual .mo_img {
+    display: block;
+  }
+  #banner_area {
+    background: url("/img/banner_bg_m01.png") no-repeat -100px center, url("/img/banner_bg_m02.png") no-repeat 100% -153px #F7F7F7;
+  }
+  #banner_area article {
+    max-width: 80%;
+  }
+  #banner_area article .txt h3 {
+    font-size: 1.3rem;
+  }
+  #banner_area article .txt h4 {
+    font-size: 1rem;
+    margin: 5px 0 15px;
+  }
+  #banner_area article .txt #btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  #banner_area article .img_box {
+    width: 40%;
+    top: 45px;
+  }
+  #special_area article .txt {
+    flex-direction: column;
+    width: 100%;
+  }
+  #special_area article .txt .left {
+    margin: 20px;
+    width: auto;
+  }
+  #special_area article .txt .left .top {
+    display: flex;
+    align-items: start;
+  }
+  #special_area article .txt .left h4 {
+    margin: 0;
+    text-align: right;
+  }
+  #special_area article .txt .left h4 strong {
+    line-height: 1;
+  }
+  #special_area article .txt .left #btn {
+    width: 200px;
+    padding: 10px 0;
+  }
+  #special_area article .txt figure {
+    width: 50%;
+    margin: 0 auto;
+  }
+  #special_area article .txt .right {
+    width: auto;
+    flex-direction: initial;
+    margin: 20px;
+  }
+  #special_area article .txt .right h3, #special_area article .txt .right h4 {
+    width: 50%;
+  }
+  #special_area article .txt .right h4 {
+    text-align: right;
+    margin: 10px 0 0;
+  }
+  #dDaySale_area .more_btn {
+    margin: 0 10px 10px 0;
+  }
+  #dDaySale_area ul li {
+    width: 32.3%;
+  }
+  #dDaySale_area ul li:nth-of-type(4n) {
+    margin: 0 1% 50px 0;
+  }
+  #dDaySale_area ul li:nth-of-type(3n) {
+    margin: 0 0 50x 0;
+  }
+}
+@media (max-width: 768px) {
+  #main_visual .autoplay_btn {
+    bottom: 0;
+  }
+  #search_area article {
+    flex-direction: column;
+    max-width: 100%;
+    width: 70%;
+    margin: 0 auto;
+  }
+  #search_area article .title {
+    text-align: center;
+    width: auto;
+  }
+  #search_area article h3 {
+    margin: 0 0 10px 0;
+  }
+  #search_area article form {
+    width: 100%;
+  }
+  #search_area article form ul li {
+    margin: 0 20px 0 0;
+  }
+  #search_area article form input {
+    border-radius: 7px;
+    height: 40px;
+    font-size: 0.8125rem;
+  }
+  #search_area article form input::-moz-placeholder {
+    font-size: 0.8125rem;
+  }
+  #search_area article form input::placeholder {
+    font-size: 0.8125rem;
+  }
+  #search_area article form button {
+    border-radius: 7px;
+    height: 40px;
+    font-size: 0.8125rem;
+    padding: 0 15px;
+  }
+  #banner_area article .txt {
+    width: 60%;
+  }
+  #banner_area article .img_box {
+    width: 40%;
+    top: 0;
+  }
+  #banner_area article .img_box p.first {
+    top: -6%;
+    left: 7%;
+  }
+  #banner_area article .img_box p.tws {
+    top: -18%;
+    left: 37%;
+  }
+  #banner_area article .img_box p.last {
+    left: 67%;
+    top: -3%;
+  }
+  #special_area {
+    padding: 70px 0;
+  }
+  #special_area article .txt figure {
+    width: 65%;
+  }
+  #special_area article .txt .left h3 {
+    width: auto;
+  }
+  #special_area article .txt .left h4 {
+    width: 60%;
+    margin: 0 0 0 8%;
+  }
+  #special_area article .product-button-prev,
+  #special_area article .product-button-next {
+    width: 40px;
+    height: 40px;
+  }
+  #special_area article .product-button-prev:after,
+  #special_area article .product-button-next:after {
+    width: 40px;
+    height: 40px;
+    font-size: 16px !important;
+  }
+  #dDaySale_area .more_btn {
+    max-width: 1440px;
+    width: 98%;
+    margin: 0 auto 10px;
+  }
+  #dDaySale_area ul {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #dDaySale_area ul li {
+    width: 100%;
+    display: flex;
+  }
+  #dDaySale_area ul li figure:after {
+    display: none;
+  }
+  #dDaySale_area ul li figure small {
+    padding: 0 20px;
+  }
+  #dDaySale_area ul li > a {
+    width: 30%;
+  }
+  #dDaySale_area ul li > a:hover .hover_box {
+    display: none;
+  }
+  #dDaySale_area ul li .detail_txt {
+    width: 67%;
+    background: #F2F2F2;
+    border-radius: 20px;
+    margin: 0 0 0 20px;
+    padding: 5% 4%;
+  }
+  #dDaySale_area ul li .detail_txt p {
+    background-position: left 0px;
+    color: #676767;
+  }
+  #dDaySale_area ul li .detail_txt h4 {
+    display: block;
+    margin: 0 0 13px 0;
+  }
+  #dDaySale_area ul li .detail_txt #btn {
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    width: 160px;
+    padding: 5px 0;
+    font-weight: 400;
+    margin: 15px 0 0;
+  }
+  #dDaySale_area ul li .detail_txt #btn i {
+    width: 10px;
+    height: 10px;
+  }
+  #dDaySale_area ul li .detail_txt #btn i:after {
+    height: 19px;
+    transform: rotate(-45deg) translate(6px, 2px);
+  }
+  #dDaySale_area ul li .detail_txt .tel {
+    margin: 0 0 10px 0;
+  }
+  #dDaySale_area ul li .detail_txt .tel span:last-child {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .main_title {
+    font-size: 1.5rem;
+  }
+  #banner_area {
+    background: url("/img/banner_bg_m01.png") no-repeat -100px bottom/70%, url("/img/banner_bg_m02.png") no-repeat 100% -153px/50% #F7F7F7;
+  }
+  #banner_area article {
+    max-width: 90%;
+    flex-direction: column;
+  }
+  #banner_area article .txt {
+    width: 100%;
+    text-align: center;
+  }
+  #banner_area article .img_box {
+    width: 100%;
+    margin: 30px 0 0;
+  }
+  #banner_area article .img_box figure {
+    width: 60%;
+    margin: 0 auto;
+  }
+  #banner_area article .img_box .top_txt {
+    position: absolute;
+    left: 51%;
+    width: 45%;
+    transform: translateX(-50%);
+    top: -14%;
+  }
+  #special_area article .mainTxt {
+    width: 80%;
+  }
+  #special_area article .txt .left .top {
+    flex-direction: column;
+  }
+  #special_area article .txt .left h3 {
+    width: 45%;
+  }
+  #special_area article .txt .left h4 {
+    margin: 12px 0;
+    width: 100%;
+    text-align: left;
+  }
+  #special_area article .txt .left h4 strong {
+    font-size: 1.5rem;
+  }
+  #special_area article .txt .left h4 span {
+    font-size: 0.9rem;
+    margin: 7px 0 0;
+  }
+  #special_area article .txt .left #btn {
+    width: 160px;
+    font-size: 0.9rem;
+    padding: 6px 0;
+  }
+  #special_area article .txt .left #btn i {
+    width: 10px;
+    height: 10px;
+  }
+  #special_area article .txt .left #btn i:after {
+    height: 18px;
+    transform: rotate(-45deg) translate(6px, 2px);
+  }
+  #special_area article .txt .right h3 strong {
+    font-size: 1.1rem;
+  }
+  #special_area article .txt .right h3 strong:after {
+    bottom: 0;
+  }
+  #special_area article .txt .right h3 span {
+    font-size: 0.9rem;
+  }
+  #special_area article .txt .right h4 strong {
+    font-size: 1rem;
+    padding: 5px 20px;
+  }
+  #special_area article .txt .right h4 span {
+    font-size: 1.5rem;
+    margin: 5px 0 0;
+  }
+  #special_area article .txt .right h4 big {
+    font-size: 1.5rem;
+  }
+  #special_area article .txt figure small {
+    font-size: 0.7rem;
+    padding: 15px;
+    bottom: 7%;
+    right: 20%;
+  }
+  #special_area article .txt figure big {
+    font-size: 1.5rem;
+  }
+  #dDaySale_area .title h3 {
+    padding: 0 0 2px 0;
+  }
+  #dDaySale_area .title h3:after {
+    height: 4px;
+  }
+}
+@media (max-width: 540px) {
+  #search_area article {
+    width: 90%;
+  }
+  #search_area article form ul li {
+    margin: 0 7px 0 0;
+  }
+  #search_area article form ul li:last-child {
+    margin: 0 10px 0 0;
+  }
+  #brand_area article .thumb li {
+    width: 32%;
+    margin: 0 2% 2% 0;
+  }
+  #brand_area article .thumb li:nth-of-type(2n) {
+    margin: 0 2% 2% 0;
+  }
+  #brand_area article .thumb li:nth-of-type(3n) {
+    margin: 0 0 2% 0;
+  }
+  #brand_area article .img_box {
+    width: 70%;
+  }
+  #special_area article .mainTxt {
+    width: 100%;
+  }
+  #special_area article .product-button-prev,
+  #special_area article .product-button-next {
+    box-shadow: none;
+  }
+  #dDaySale_area ul li a {
+    width: 40%;
+  }
+  #dDaySale_area ul li:nth-of-type(5n) {
+    margin: 0 0 50px 0;
+  }
+  #dDaySale_area ul li .detail_txt {
+    width: 58%;
+    margin: 0 0 0 10px;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 480px) {
+  #contents {
+    padding-bottom: 450px;
+  }
+  #search_area article {
+    align-items: start;
+  }
+  #search_area article h3 {
+    background-position: 0 5px;
+    padding: 1px 0 0 23px;
+    background-size: 17px auto;
+    text-align: left;
+  }
+  #search_area article form {
+    align-items: end;
+    justify-content: center;
+  }
+  #search_area article form ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  #search_area article form ul li {
+    margin: 0 10px 10px 0;
+    width: 97%;
+  }
+  #special_area article .txt {
+    padding: 0;
+  }
+  #special_area article .txt .left h4 strong {
+    font-size: 1.3rem;
+  }
+  #special_area article .txt figure small {
+    padding: 10px 13px;
+    letter-spacing: 0;
+  }
+  #special_area article .txt figure big {
+    font-size: 1.2rem;
+  }
+  #special_area article .txt .right h3 strong {
+    font-size: 0.9rem;
+  }
+  #special_area article .txt .right h3 strong:after {
+    bottom: -2px;
+  }
+  #special_area article .txt .right h3 span {
+    margin: 5px 0;
+    font-size: 0.8rem;
+  }
+  #special_area article .txt .right h4 strong {
+    font-size: 0.9rem;
+    padding: 5px 5px;
+  }
+  #special_area article .txt .right h4 span {
+    font-size: 1rem;
+  }
+  #special_area article .txt .right h4 big {
+    font-size: 1rem;
+  }
+  #banner_area article .img_box {
+    margin: 10% 0 0;
+  }
+  #banner_area article .img_box figure {
+    width: 80%;
+  }
+  #banner_area article .img_box .top_txt {
+    width: 60%;
+  }
+  #dDaySale_area .more_btn {
+    width: 80%;
+  }
+  #dDaySale_area ul {
+    width: 80%;
+  }
+  #dDaySale_area ul li {
+    flex-direction: column;
+  }
+  #dDaySale_area ul li > a {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+  #dDaySale_area ul li .detail_txt {
+    padding: 20px 20px;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 430px) {
+  #brand_area article .thumb li {
+    width: 49%;
+  }
+  #brand_area article .thumb li:nth-of-type(3n) {
+    margin: 0 2% 2% 0;
+  }
+  #brand_area article .thumb li:nth-of-type(2n) {
+    margin: 0 0 2% 0;
+  }
+}
+@media (max-width: 414px) {
+  #contents {
+    padding-bottom: 430px;
+  }
+  #dDaySale_area .more_btn {
+    width: 90%;
+  }
+  #dDaySale_area ul {
+    width: 90%;
+  }
+}/*# sourceMappingURL=main.css.map */
