@@ -6,7 +6,7 @@
 }
 
 .sub_title {
-  font-size: 1.1rem;
+  font-size: 1.1rem;#
   font-weight: 400;
   text-align: center;
 }
@@ -14,7 +14,7 @@
 #contents {
   position: relative;
   z-index: 1;
-  padding-bottom: 305px;
+  margin-bottom: 305px;
 }
 
 #main_visual {
@@ -760,7 +760,7 @@
 }
 @media (max-width: 1024px) {
   #contents {
-    padding-bottom: 400px;
+    margin-bottom: 400px;
   }
   #main_visual .pc_img {
     display: none;
@@ -1132,7 +1132,7 @@
 }
 @media (max-width: 480px) {
   #contents {
-    padding-bottom: 450px;
+    margin-bottom: 450px;
   }
   #search_area article {
     align-items: start;
@@ -1229,7 +1229,7 @@
 }
 @media (max-width: 414px) {
   #contents {
-    padding-bottom: 430px;
+     margin-bottom: 430px;
   }
   #dDaySale_area .more_btn {
     width: 90%;
