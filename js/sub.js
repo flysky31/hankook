@@ -27,9 +27,9 @@ $(document).ready(function(){
     $(this).addClass("active");
   });
 
-  $("#product_area .tab-btn").click(function() {
-    $("#product_area .tab-btn").removeClass("active");
-    $("#product_area .tab-content").removeClass("active");
+  $("#product_brand .tab-btn").click(function() {
+    $("#product_brand .tab-btn").removeClass("active");
+    $("#product_brand .tab-content").removeClass("active");
 
     var tabId = $(this).data("tab");
     $("#" + tabId).addClass("active");
