@@ -27,7 +27,14 @@ $(document).ready(function(){
     $(this).addClass("active");
   });
 
-  
+  $("#product_area .tab-btn").click(function() {
+    $("#product_area .tab-btn").removeClass("active");
+    $("#product_area .tab-content").removeClass("active");
+
+    var tabId = $(this).data("tab");
+    $("#" + tabId).addClass("active");
+    $(this).addClass("active");
+  });
   var tab01_Swiper = new Swiper(".tab01_Swiper", {
       spaceBetween: 10,
       slidesPerView: 3,
