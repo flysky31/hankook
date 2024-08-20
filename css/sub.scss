@@ -17,7 +17,7 @@
 #contents{
     position: relative;
     z-index: 1;
-    padding-bottom: 305px;
+    margin-bottom: 305px;
 }
 
 
@@ -939,7 +939,7 @@
 
 @include breakpoint_tablet_1024{
     #contents{
-        padding-bottom: 400px;
+        margin-bottom: 400px;
     }
     #promotion_area {
         .store{
@@ -1348,7 +1348,7 @@
 
 @include breakpoint_mobile_480{
     #contents{
-        padding-bottom: 450px;
+        margin-bottom: 450px;
     }
     #product_brand {
         .category {
@@ -1438,7 +1438,7 @@
 
 @include breakpoint_mobile_414{
     #contents{
-        padding-bottom: 430px;
+        margin-bottom: 430px;
     }
     #promotion_area {
         .store{
