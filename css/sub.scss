@@ -287,6 +287,12 @@
             }
         }
     }
+    .tab-content{
+        display:none;
+        &.active{
+            display:block;
+        }
+    }
     .thumb_area{
         ul.top{
             @include flex_nth;
