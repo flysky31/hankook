@@ -445,7 +445,7 @@
                 &:last-child{
                     margin: 0;
                 }
-                &.on{
+                &.active{
                     a{
                         background: #E17639;
                         border-radius: 25px;
@@ -493,6 +493,12 @@
                     border-right: 1px solid #000;
                 }
             }
+        }
+    }
+    .tab-content{
+        display:none;
+        &.active{
+            display:block;
         }
     }
     .content{
