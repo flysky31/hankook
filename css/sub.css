@@ -429,7 +429,7 @@
 #product_brand .category ul > li:last-child {
   margin: 0;
 }
-#product_brand .category ul > li.on a {
+#product_brand .category ul > li.active a {
   background: #E17639;
   border-radius: 25px;
 }
@@ -476,7 +476,12 @@
 #product_brand .content {
   text-align: center;
 }
-
+#product_brand .tab-content{
+  display:none;
+}
+#product_brand .tab-content.active{
+  display:block;
+}
 #promotion_area {
   padding: 100px 0;
   background: #fff;
