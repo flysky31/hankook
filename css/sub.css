@@ -226,7 +226,7 @@
 #product_area .category ul > li:last-child {
   margin: 0;
 }
-#product_area .category ul > li.on a {
+#product_area .category ul > li.active a {
   background: #E17639;
   border-radius: 25px;
 }
@@ -269,6 +269,12 @@
   transition: 300ms ease-in-out;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
+}
+#product_area .tab-content{
+  display:none;
+}
+#product_area .tab-content.active{
+  display:block;
 }
 #product_area .thumb_area ul.top {
   display: flex;
