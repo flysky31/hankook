@@ -14,7 +14,7 @@
 #contents {
   position: relative;
   z-index: 1;
-  padding-bottom: 305px;
+  margin-bottom: 305px;
 }
 
 #sub_visual .pc_img {
@@ -809,7 +809,7 @@
 }
 @media (max-width: 1024px) {
   #contents {
-    padding-bottom: 400px;
+     margin-bottom: 400px;
   }
   #promotion_area .store .more_btn {
     margin: 0 10px 10px 0;
@@ -1097,7 +1097,7 @@
 }
 @media (max-width: 480px) {
   #contents {
-    padding-bottom: 450px;
+    margin-bottom: 450px;
   }
   #product_brand .category ul > li {
     width: 32.2%;
@@ -1153,7 +1153,7 @@
 }
 @media (max-width: 414px) {
   #contents {
-    padding-bottom: 430px;
+    margin-bottom: 430px;
   }
   #promotion_area .store .more_btn {
     width: 90%;
